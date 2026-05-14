@@ -12,7 +12,7 @@
 #define NUM_RANKS   14
 #define WILD_IDX    12   // 2 = wildcard
 #define JOKER_IDX   13   // 0 = reset-kaart
-#define MAX_COMBO   6    // max kaarten per zet
+#define MAX_COMBO   8    // max kaarten per zet
 
 // ---------------------------------------------------------------------------
 // SimState — gedeelde struct tussen Go en CUDA (exact 76 bytes, geen padding)

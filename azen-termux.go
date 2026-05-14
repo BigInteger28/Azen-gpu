@@ -689,7 +689,7 @@ func genOpenMoves(pid int, hand *Hand) []Move {
 		if len(normals) == 0 {
 			continue
 		}
-		maxTotal := imin(len(normals)+len(wilds), 6)
+		maxTotal := imin(len(normals)+len(wilds), 8)
 		for total := 1; total <= maxTotal; total++ {
 			for numNorm := imax(1, total-len(wilds)); numNorm <= imin(len(normals), total); numNorm++ {
 				numWild := total - numNorm
